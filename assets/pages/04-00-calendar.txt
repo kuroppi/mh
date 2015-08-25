@@ -1,0 +1,62 @@
+Calendar
+(embed)
+
+<iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=q437ngmn58kurq66idc0a2bqjc%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+Calendar ID: q437ngmn58kurq66idc0a2bqjc@group.calendar.google.com
+
+
+Tabbed widget
+
+Room 1
+---------------------------------
+
+<iframe src="https://www.google.com/calendar/embed?showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23ff6666&amp;src=ir7onq0l60dlfd41mldela7grs%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+Calendar ID: ir7onq0l60dlfd41mldela7grs@group.calendar.google.com
+
+HTML link
+https://www.google.com/calendar/embed?src=ir7onq0l60dlfd41mldela7grs%40group.calendar.google.com&ctz=America/Los_Angeles
+
+XML link
+https://www.google.com/calendar/feeds/ir7onq0l60dlfd41mldela7grs%40group.calendar.google.com/public/basic
+
+iCal link
+https://www.google.com/calendar/ical/ir7onq0l60dlfd41mldela7grs%40group.calendar.google.com/public/basic.ics
+
+Room 2
+---------------------------------
+<iframe src="https://www.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23cc6600&amp;src=up5pvn7us3msd59gc1d1lv4uok%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+Calendar ID: up5pvn7us3msd59gc1d1lv4uok@group.calendar.google.com
+
+HTML
+https://www.google.com/calendar/embed?src=up5pvn7us3msd59gc1d1lv4uok%40group.calendar.google.com&ctz=America/Los_Angeles
+
+XML
+https://www.google.com/calendar/feeds/up5pvn7us3msd59gc1d1lv4uok%40group.calendar.google.com/public/basic
+
+iCAL
+https://www.google.com/calendar/ical/up5pvn7us3msd59gc1d1lv4uok%40group.calendar.google.com/public/basic.ics
+
+Room 3
+---------------------------------
+<iframe src="https://www.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffcc33&amp;src=307ars3pr69r5dp5ndgh0tp3ro%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+Calendar ID: 307ars3pr69r5dp5ndgh0tp3ro@group.calendar.google.com
+
+HTML
+https://www.google.com/calendar/embed?src=307ars3pr69r5dp5ndgh0tp3ro%40group.calendar.google.com&ctz=America/Los_Angeles
+
+XML
+https://www.google.com/calendar/feeds/307ars3pr69r5dp5ndgh0tp3ro%40group.calendar.google.com/public/basic
+
+iCAL
+https://www.google.com/calendar/ical/307ars3pr69r5dp5ndgh0tp3ro%40group.calendar.google.com/public/basic.ics
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Info</title>
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Chelsea+Market|Yanone+Kaffeesatz:400,700,300|Noticia+Text'>
+
+    <link rel="stylesheet" href='css/font-awesome-4.4.0/css/font-awesome.min.css'>
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JAVASCRIPT
+    -------------------------------------------------- -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).resize(function() {
+                    var width = $(window).width();
+                    if (width <= 1024) {
+                        $('article').removeClass('one-half').addClass('row');
+                    }
+
+                })
+                .resize();
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <main id="info" class="container">
+
+        <section class="row">
+            <section class="two columns">
+                <div id="brand">
+                    <a href="index.html"><img src="images/mh_logo.png" width="80%" alt=""></span>
+                    </a>
+                </div>
+
+                <nav id="vertNav">
+                    <ul>
+                        <li><a href="about.html"><i class="fa fa-user fa-2x"></i><span class="label"> <br/>about</span></a></li>
+                        <li class="activeLink"><a href="#"><i class="fa fa-info-circle fa-2x"></i><span class="label"> <br/>info&nbsp;</span></a></li>
+                        <li><a href="register.html"><i class="fa fa-pencil fa-2x"></i><span class="label"><br/>register</span></a></li>
+                        <li><a href="calendar.html"><i class="fa fa-calendar fa-2x"></i><span class="label"><br/>calendar</span></a></li>
+                        <li><a href="contact.html"><i class="fa fa-phone fa-2x"></i><span class="label"> <br/>contact</span></a></li>
+                    </ul>
+                </nav>
+
+                <footer id="vertNavFoot">
+                    <div id="footerLinks">
+                        <a href="https://www.facebook.com/pages/Magic-Hours-Childrens-Center/375552989281344" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a>
+                        <a href="https://plus.google.com/101166417782230570648/about" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="http://www.yelp.com/biz/magic-hours-san-diego" target="_blank"><i class="fa fa-yelp"></i></a>
+                    </div>
+                    <div>
+                        <p>8330 Westmore Rd
+                            <br>San Diego, CA, 92126
+                            <br>858-271-8383
+                            <br>State License #376700608</p>
+                    </div>
+
+                    <div id="pageLinks">
+                        <ul>
+                            <li><a href="policies.html"><i class="fa fa-caret-right"></i>&nbsp;  Policies</a></li>
+                            <li><a href="program.html"><i class="fa fa-caret-right"></i>&nbsp;  Program</a></li>
+                            <li><a href="tuition.html"><i class="fa fa-caret-right"></i>&nbsp;  Tuition</a></li>
+
+                        </ul>
+                    </div>
+
+                </footer>
+            </section>
+
+
+            <section class="ten columns contentWrap">
+                <!-- the div below is used to place the header image and then crop it based on screen size. The image and its position are specified in the css for this div. -->
+                <div class="bg-image bg-image-header bg-center-bottom">
+                </div>
+                
+                <div class="mh-header-text">
+                    <h1>information</h1>
+                </div>
+
+                <section id="infoSubPages" class="row">
+                    <article id="aboutProgram" class="one-half column">
+                        <h2>Program Summary</h2>
+                        <p>Magic Hours is more than a daycare center. We teach. Magic Hours strives to incorporates 8 areas of learning on a daily basis to prepare children for their elementary experience.</p>
+
+                        <p>Additionally, the social, emotional, physical, and educational goals of our System 4 curriculum have been created and implemented by professional educators to serve the learning needs of your child during these critical and formative years.</p>
+
+
+                        <p>We offer several Program options throughout the week. A daily agenda can be found on our Calendar page.</p>
+
+                        <hr>
+                        <div class="mh-bq-left mh-opacity">
+                            <i class="fa fa-quote-right fa-4x"></i>
+                        </div>
+                        <blockquote class="mh-blockquote-left">Because my work hours tend to change every quarter, the flexibility that Magic Hours offers me is simply priceless.
+                            <br><cite> -- Anna D.</cite></blockquote>
+
+                    </article>
+                    <article id="aboutPolicies" class="one-half column">
+                        <h2>Policies</h2>
+                        <p>
+                            Our policies exist to promote a healthy learning and growth environment for your children. Many are also mandated by Local, State, and Federal regulating entities. Please take care to observe and adhere to all school policies. Summaries and downloadable files are also available for your convenience.
+                        </p>
+
+                        <div class="mh-learn">
+                            <p><a href="policies.html" class="mh-learnmore">Learn more</a></p>
+                        </div>
+
+                        <h2 id="tuitionH2Clear">Tuition</h2>
+                        <p>
+                            There are several Full-Day & Half-Day Program options available to fit a variety of budgets and schedules. Space is limited, so be sure to submit your registration and payment early in order to secure a spot for your child.
+                            <p>
+                                <div class="mh-learn">
+                                    <p><a href="tuition.html" class="mh-learnmore">Learn more</a></p>
+                                </div>
+
+                                <br>
+
+                                <div id="announcement">
+                                    <i class="fa fa-calendar fa-3x"></i>
+                                    <p>
+                                        Early Registration
+                                        <br> ends
+                                        <br> July 28, 2015
+                                    </p>
+                                </div>
+                                <br>
+                                <div class="mh-ctagal-top">
+                                    <a href="#top" class="mh-cta-gallery"><i class="fa fa-hand-o-up"></i> Back to Top</a>
+                                </div>
+                    </article>
+                </section>
+
+            </section>
+
+
+
+        </section>
+
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>

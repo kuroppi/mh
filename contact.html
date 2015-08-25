@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Chelsea+Market|Yanone+Kaffeesatz:400,700,300|Noticia+Text'>
+
+    <link rel="stylesheet" href='css/font-awesome-4.4.0/css/font-awesome.min.css'>
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JAVASCRIPT
+    -------------------------------------------------- -->
+    <script src="js/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <main id="contact" class="container">
+
+        <section class="row">
+            <section class="two columns">
+                <div id="brand">
+                    <a href="index.html"><img src="images/mh_logo.png" width="80%" alt="logo"></a>
+                </div>
+
+                <nav id="vertNav">
+                    <ul>
+                        <li><a href="about.html"><i class="fa fa-user fa-2x"></i><span class="label"> <br/>about</span></a></li>
+                        <li><a href="info.html"><i class="fa fa-info-circle fa-2x"></i><span class="label"> <br/>info&nbsp;</span></a></li>
+                        <li><a href="register.html"><i class="fa fa-pencil fa-2x"></i><span class="label"><br/>register</span></a></li>
+                        <li><a href="calendar.html"><i class="fa fa-calendar fa-2x"></i><span class="label"><br/>calendar</span></a></li>
+                        <li class="activeLink"><a href="#"><i class="fa fa-phone fa-2x"></i><span class="label">
+                        <br/>contact</span></a></li>
+                    </ul>
+                </nav>
+
+                <footer id="vertNavFoot">
+                    <div id="footerLinks">
+                        <a href="https://www.facebook.com/pages/Magic-Hours-Childrens-Center/375552989281344" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a>
+                        <a href="https://plus.google.com/101166417782230570648/about" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="http://www.yelp.com/biz/magic-hours-san-diego" target="_blank"><i class="fa fa-yelp"></i></a>
+                    </div>
+                    <div>
+                        <p>8330 Westmore Rd
+                            <br>San Diego, CA, 92126
+                            <br>858-271-8383
+                            <br>State License #376700608</p>
+                    </div>
+
+                </footer>
+            </section>
+
+            <section class="ten columns contentWrap">
+                <!-- the div below is used to place the header image and then crop it based on screen size. The image and its position are specified in the css for this div. -->
+                <div class="bg-image bg-image-header bg-center-bottom">
+                </div>
+                
+                <div class="mh-header-text mh-header-text-dark">
+                    <h1>contact us</h1>
+                </div>
+
+                <section id="contactInfo" class="row">
+                    <article id="contactDetailsLeft" class="one-half column">
+
+                        <form action="confirmation.html" method="">
+                            <fieldset>
+                                <legend>Send Us an Email</legend>
+                                <div class="fields">
+                                    <div class="label">
+                                        <label for="firstname">First Name</label>
+                                    </div>
+                                    <input class="textInput" id="firstname" type="text" required>
+                                </div>
+
+                                <div class="fields">
+                                    <div class="label">
+                                        <label for="lastname">Last Name</label>
+                                    </div>
+                                    <input class="textInput" id="lastname" type="text" required>
+                                </div>
+
+                                <div>
+                                    <div class="label">
+                                        <label for="phone">Phone Number</label>
+                                    </div>
+                                    <input class="textInput" placeholder="123-456-7890" id="phone" type="tel" required pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="123-456-7890">
+                                </div>
+                                <div>
+                                    <div class="label">
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <input class="textInput" placeholder="john@example.com" id="email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Format: john@example.com">
+                                </div>
+
+                                <div>
+                                    <div class="label numberOfChild">Number of children to register?</div>
+                                    <div class="radioButtons">
+                                        <div>
+                                            <input type="radio" name="numberOfChild" id="1" value="1">
+                                            <label for="1"> 1</label>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="numberOfChild" id="2" value="2">
+                                            <label for="2"> 2</label>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="numberOfChild" id="3" value="3">
+                                            <label for="3"> 3</label>
+                                            <br>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="numberOfChild" id="4plus" value="4+">
+                                            <label for="4plus"> 4+</label>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+
+                                <div id="checkboxWrap">
+                                    <div class="label whichProgram">Which program would you be interested in?</div>
+                                    <div class="">
+                                        <div>
+                                            <input type="checkbox" name="programCheckbox" id="checkbox1" value="allday">
+                                            <label for="checkbox1"> M-F All Day</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="programCheckbox" id="checkbox2" value="morning">
+                                            <label for="checkbox2"> M-F Morning</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="programCheckbox" id="checkbox1" value="afternoon">
+                                            <label for="checkbox3"> M-F Afternoon</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+
+                                <div id="hearAboutUs">
+                                    <div class="label">How did you hear about us?</div>
+                                    <select class="aboutUs">
+                                        <option value="friend">Friend referral</option>
+                                        <option value="website">Website</option>
+                                        <option value="facebook">Facebook</option>
+                                        <option value="yelp">Yelp</option>
+                                        <option value="google+">Google+</option>
+                                        <option value="flyer">Flyer</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <br>
+
+                                <div id="listBoxWrap">
+                                    <div class="label">Reason for contacting:</div>
+                                    <select class="contactReason" size="4" multiple>
+
+                                        <option value="" selected>Select an option ...</option>
+                                        <option value="a">A</option>
+                                        <option value="b">B
+                                        </option>
+                                        <option value="c">C</option>
+                                        <option value="d">D</option>
+                                        <option value="others">Others (please use comment area below)</option>
+                                    </select>
+                                </div>
+
+
+
+                                <div>
+                                    <div class="label">Questions/Comments?</div>
+                                    <textarea></textarea>
+                                </div>
+                                <input id="submit" type="submit" value="SUBMIT">
+                            </fieldset>
+                        </form>
+
+                        <div class="mh-bq-left mh-opacity">
+                            <i class="fa fa-quote-right fa-4x"></i>
+                        </div>
+                        <blockquote class="mh-blockquote-left">The tour was really instrumental in our decision to go with Magic Hours Preschool. We were down to 2 choices on our list and there was no doubt where our twins would be going after our visit.
+                            <br> <cite>-- Leilani Q</cite></blockquote>
+                        <br>
+                        <div class="mh-ctagal-top">
+                            <a href="#top" class="mh-cta-gallery"><i class="fa fa-hand-o-up"></i> Back to Top</a>
+                        </div>
+
+                    </article>
+                    <article id="contactDetailsRight" class="one-half column">
+                        <h2>Contact Info</h2>
+                        <p>
+                            Magic Hours Preschool
+                            <br> 8330 Westmore Rd
+                            <br> San Diego, CA 92126
+                            <br> tel (858)271-8383
+                            <br> fax (858)271-8384
+                            <br>
+                            <a href="mailto:MagicHoursPreschool@gmail.com">MagicHoursPreschool@gmail.com</a>
+                            <br>
+                            <a href="www.magichourspreschool.com">www.MagicHoursPreschool.com</a>
+                        </p>
+                        <h2>Schedule A Tour</h2>
+                        <p>We are happy to accomodate any Parents/Guardians who wish to tour the school facilities prior to enrollment. Tours are guided and can be conducted during operating hours. This provides an opportunity to observe students and teachers in a real-time setting. Tours are generally given to no more than 4 adults in a party. In order to avoid distractions and disruptions, tours are for adults only.</p>
+
+                        <br>
+                        <h3>To schedule your tour please contact:</h3>
+                        <p>Charlotte Mason
+                            <br>
+                            <a href="mailto:Tours@MagicHoursPreschool.com">Tours@MagicHoursPreschool.com</a>
+                            <br> (858)271-8383
+                        </p>
+
+
+                    </article>
+                </section>
+
+            </section>
+
+
+
+        </section>
+
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>

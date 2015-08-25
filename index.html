@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Chelsea+Market|Yanone+Kaffeesatz:400,700,300|Noticia+Text'>
+
+    <link rel="stylesheet" href='css/font-awesome-4.4.0/css/font-awesome.min.css'>
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- JAVASCRIPT
+    -------------------------------------------------- -->
+    <script src="js/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $('.click-nav > ul').toggleClass('no-js js');
+            $('.click-nav .js ul').hide();
+            $('.click-nav .js').click(function(e) {
+                $('.click-nav .js ul').slideToggle(200);
+                $('.clicker').toggleClass('active');
+                e.stopPropagation();
+            });
+            $(document).click(function() {
+                if ($('.click-nav .js ul').is(':visible')) {
+                    $('.click-nav .js ul', this).slideUp();
+                    $('.clicker').removeClass('active');
+                }
+            });
+        });
+
+    </script>
+
+
+</head>
+
+<body id="mh-home">
+    <main id="home" class="container">
+
+        <header class="row">
+            <div id="brandHome" class="two columns">
+                <a href="index.html"><img src="images/mh_logo.png" width="60%" alt=""></a>
+            </div>
+
+            <div id="headerWrap" class="ten columns">
+                <div id="search">
+                    <input type="search" placeholder="search...">
+                    <i class="fa fa-search fa-2x"></i></div>
+
+                <div id="menu" class="click-nav">
+                    <ul class="no-js">
+                        <li>
+                            <a href="#" class="clicker"><i class="fa fa-bars fa-2x"></i></a>
+                            <ul>
+                                <li><a href="about.html"><i class="fa fa-user fa-2x"></i>about</a>
+
+
+                                    <ul>
+                                        <li><a href="download.html"><i class="fa fa-pencil fa-2x"></i>downloads</a></li>
+                                        <li><a href="facilities.html"><i class="fa fa-user fa-2x"></i>facilities</a></li>
+                                        <li><a href="gallery.html"><i class="fa fa-user fa-2x"></i>gallery</a></li>
+                                        <li><a href="policies.html"><i class="fa fa-info-circle fa-2x"></i>policies</a></li>
+                                        <li><a href="program.html"><i class="fa fa-info-circle fa-2x"></i>program</a></li>
+                                        <li><a href="staff.html"><i class="fa fa-user fa-2x"></i>staff</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="info.html"><i class="fa fa-info-circle fa-2x"></i>info</a></li>
+                                <li><a href="register.html"><i class="fa fa-pencil fa-2x"></i>register</a></li>
+                                <li><a href="calendar.html"><i class="fa fa-calendar fa-2x"></i>calendar</a></li>
+                                <li><a href="contact.html"><i class="fa fa-phone fa-2x"></i>contact</a></li>
+                                <li><a href="tuition.html"><i class="fa fa-info-circle fa-2x"></i>tuition</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+
+
+            </div>
+        </header>
+
+
+        <nav class="row">
+            <ul class="twelve columns">
+                <li><a href="about.html"><i class="fa fa-user fa-2x"></i> <br/>about</a></li>
+                <li><a href="info.html"><i class="fa fa-info-circle fa-2x"></i> <br/>info&nbsp;</a></li>
+                <li><a href="register.html"><i class="fa fa-pencil fa-2x"></i><br/>register</a></li>
+                <li><a href="calendar.html"><i class="fa fa-calendar fa-2x"></i><br/>calendar</a></li>
+                <li><a href="contact.html"><i class="fa fa-phone fa-2x"></i><br/>contact</a></li>
+                <li class="hiddenInDesktop">
+<a href="https://www.facebook.com/pages/Magic-Hours-Childrens-Center/375552989281344" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a>
+                        <a href="https://plus.google.com/101166417782230570648/about" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="http://www.yelp.com/biz/magic-hours-san-diego" target="_blank"><i class="fa fa-yelp"></i></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- This section will be used as background for the relatively positioned nav.  -->
+        <section class="row">
+            <div id="navBackground"></div>
+
+        </section>
+
+        <footer class="row">
+            <div id="homeFootAdd" class="nine columns">
+                <p>8330 Westmore Rd | San Diego, CA | 92126 | 858-271-8383 | State License #376700608 </p>
+            </div>
+            <div id="footerLinks" class="three columns indexFoot">
+                <a href="https://www.facebook.com/pages/Magic-Hours-Childrens-Center/375552989281344" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a>
+                        <a href="https://plus.google.com/101166417782230570648/about" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="http://www.yelp.com/biz/magic-hours-san-diego" target="_blank"><i class="fa fa-yelp"></i></a>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

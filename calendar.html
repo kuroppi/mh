@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Chelsea+Market|Yanone+Kaffeesatz:400,700,300|Noticia+Text'>
+
+    <link rel="stylesheet" href='css/font-awesome-4.4.0/css/font-awesome.min.css'>
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JAVASCRIPT
+    -------------------------------------------------- -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#tabs").tabs();
+        });
+        
+        $(document).ready(function() {
+            $(window).resize(function() {
+                    var width = $(window).width();
+                    if (width <= 1023) {
+                        $('article').removeClass('one-half').addClass('row');
+                    }
+
+                })
+                .resize();
+        });
+
+
+    </script>
+
+</head>
+
+<body>
+    <main id="calendar" class="container">
+
+        <section class="row">
+            <section class="two columns">
+                <div id="brand">
+                    <a href="index.html"><img src="images/mh_logo.png" width="80%" alt="logo"></a>
+                </div>
+
+                <nav id="vertNav">
+                    <ul>
+                        <li><a href="about.html"><i class="fa fa-user fa-2x"></i><span class="label"> <br/>about</span></a></li>
+                        <li><a href="info.html"><i class="fa fa-info-circle fa-2x"></i><span class="label"> <br/>info&nbsp;</span></a></li>
+                        <li><a href="register.html"><i class="fa fa-pencil fa-2x"></i><span class="label"><br/>register</span></a></li>
+                        <li class="activeLink"><a href="#"><i class="fa fa-calendar fa-2x"></i><span class="label"><br/>calendar</span></a></li>
+                        <li><a href="contact.html"><i class="fa fa-phone fa-2x"></i><span class="label">
+                        <br/>contact</span></a></li>
+                    </ul>
+                </nav>
+
+                <footer id="vertNavFoot">
+                    <div id="footerLinks">
+                        <a href="https://www.facebook.com/pages/Magic-Hours-Childrens-Center/375552989281344" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a>
+                        <a href="https://plus.google.com/101166417782230570648/about" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="http://www.yelp.com/biz/magic-hours-san-diego" target="_blank"><i class="fa fa-yelp"></i></a>
+                    </div>
+                    <div>
+                        <p>8330 Westmore Rd
+                            <br>San Diego, CA, 92126
+                            <br>858-271-8383
+                            <br>State License #376700608</p>
+                    </div>
+
+                </footer>
+            </section>
+
+            <section class="ten columns contentWrap">
+                <!-- the div below is used to place the header image and then crop it based on screen size. The image and its position are specified in the css for this div. -->
+                <div class="bg-image bg-image-header bg-center-bottom">
+                </div>
+                
+                <div class="mh-header-text mh-header-text-dark">
+                    <h1>calendar</h1>
+                </div>
+
+                <section id="calendarInfo" class="row">
+                    <article id="embedCal" class="twelve columns">
+                        <h2>School Calendar</h2>
+                        <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=q437ngmn58kurq66idc0a2bqjc%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                    </article>
+                </section>
+
+
+                <section id="embedRooms" class="row">
+
+                    <article id="calendarDetailsLeft" class="one-half column">
+
+                        <div id="tabs">
+                            <ul>
+                                <li><a href="#Room1">Room 1</a></li>
+                                <li><a href="#Room2">Room 2</a></li>
+                                <li><a href="#Room3">Room 3</a></li>
+                            </ul>
+                            <div id="Room1">
+                                <iframe src="https://www.google.com/calendar/embed?showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=ir7onq0l60dlfd41mldela7grs%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                            </div>
+                            <div id="Room2">
+                                <iframe src="https://www.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=up5pvn7us3msd59gc1d1lv4uok%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                            </div>
+                            <div id="Room3">
+                                <iframe src="https://www.google.com/calendar/embed?showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=307ars3pr69r5dp5ndgh0tp3ro%40group.calendar.google.com&amp;color=%23875509&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="calendarDetailsRight" class="one-half column">
+                        <h2>Monthly Calendar</h2>
+                        <img src="images/mh_calendar_img_01.jpg" alt="calendar" width="100%">
+
+                        <br>
+                        <p> Enjoy hand-crafted original artwork from last year's students</p>
+                        <br>
+                        <a href="#">Download A Printable Calendar</a>
+                        <br>
+                        <br>
+                        <div class="mh-ctagal-top">
+                            <a href="#top" class="mh-cta-gallery"><i class="fa fa-hand-o-up"></i> Back to Top</a>
+                        </div>
+
+
+
+                    </article>
+                </section>
+            </section>
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>

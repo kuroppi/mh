@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Chelsea+Market|Yanone+Kaffeesatz:400,700,300|Noticia+Text'>
+
+    <link rel="stylesheet" href='css/font-awesome-4.4.0/css/font-awesome.min.css'>
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JAVASCRIPT
+    -------------------------------------------------- -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).resize(function() {
+                    var width = $(window).width();
+                    if (width <= 1023) {
+                        $('article').removeClass('one-half').addClass('row');
+                    }
+
+                })
+                .resize();
+        });
+        $(document).ready(function() {
+            $(window).resize(function() {
+                    var width = $(window).width();
+                    if (width <= 667) {
+                        $('article').removeClass('one-half').addClass('row');
+                    }
+
+                })
+                .resize();
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <main id="about" class="container">
+
+        <section class="row">
+            <!-- This section (two columns) area contains the vertival nav and footer. -->
+
+            <section class="two columns">
+                <div id="brand">
+                    <a href="index.html"><img src="images/mh_logo.png" width="80%" alt=""></a>
+                </div>
+
+                <nav id="vertNav">
+                    <ul>
+                        <li class="activeLink"><a href="#"><i class="fa fa-user fa-2x"></i><span class="label"> <br/>about</span></a></li>
+                        <li><a href="info.html"><i class="fa fa-info-circle fa-2x"></i><span class="label"> <br/>info&nbsp;</span></a></li>
+                        <li><a href="register.html"><i class="fa fa-pencil fa-2x"></i><span class="label"><br/>register</span></a></li>
+                        <li><a href="calendar.html"><i class="fa fa-calendar fa-2x"></i><span class="label"><br/>calendar</span></a></li>
+                        <li><a href="contact.html"><i class="fa fa-phone fa-2x"></i><span class="label"> <br/>contact</span></a></li>
+                    </ul>
+                </nav>
+
+                <footer id="vertNavFoot">
+                    <div id="footerLinks">
+                        <a href="https://www.facebook.com/pages/Magic-Hours-Childrens-Center/375552989281344" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" target="_blank"></i></a>
+                        <a href="https://plus.google.com/101166417782230570648/about" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="http://www.yelp.com/biz/magic-hours-san-diego" target="_blank"><i class="fa fa-yelp"></i></a>
+                    </div>
+                    <div>
+                        <p>8330 Westmore Rd
+                            <br>San Diego, CA, 92126
+                            <br>858-271-8383
+                            <br>State License #376700608</p>
+                    </div>
+
+                    <div id="pageLinks">
+                        <ul>
+                            <li><a href="staff.html"><i class="fa fa-caret-right"></i>&nbsp;  Staff&nbsp;</a></li>
+                            <li><a href="facilities.html"><i class="fa fa-caret-right"></i> &nbsp;Facilities</a></li>
+                            <li><a href="gallery.html"><i class="fa fa-caret-right"></i> &nbsp;Gallery</a></li>
+
+                        </ul>
+
+
+                    </div>
+
+                </footer>
+            </section>
+
+            <!-- The ten columns area. This area has its own row and columns. -->
+            <section id="contentWrap" class="ten columns">
+                <!-- the div below is used to place the header image and then crop it based on screen size. The image and its position are specified in the css for this div. -->
+                <div class="bg-image bg-image-header bg-center-bottom">
+                </div>
+                
+                <div class="mh-header-text">
+                    <h1>about</h1>
+                </div>
+
+                <section id="aboutInfo" class="row">
+                    <article id="aboutPhilosophy" class="one-half column">
+
+                        <h2>Philosophy</h2>
+                        <p>Our preschool follows the premise that a high quality child achievement center considers the total child. The social, emotional, physical, and educational goals of our curriculum have been created by professional educators to serve the learning needs of your child during the formative years. We feel confident that your child will have the opportunity to grow to his or her own needs and abilities.</p>
+
+                        <p>Our preschool is operated on a non-discriminatory basis, according equal treatment and access to services without regard to race, color, religion, or national ancestry.</p>
+
+                        <p>The school is licensed for operation by the State of California, Department of Social Services, which sets minimum standards for administrations, personnel, program and equipment. Our preschool meets or exceeds all state and local requirements.</p>
+
+                        <hr>
+                        <div class="mh-bq-left mh-opacity">
+                            <i class="fa fa-quote-right fa-4x"></i>
+                        </div>
+                        <blockquote class="mh-blockquote-left">The social, emotional, physical, and educational goals of our curriculum have been created by professional educators to serve the learning needs of your child during the formative years.</blockquote>
+
+
+                    </article>
+
+                    <article id="aboutStaff" class="one-half column">
+                        <h2 class="mh-h2">Staff</h2>
+                        <p>
+                            At Magic Hours Children’s Center, highly trained, dedicated teachers and staff provide childcare and education by encouraging children's natural curiosity and wonder within a supportive, rich environment. It's the perfect place for children to play, laugh and discover.
+                        </p>
+                        <div class="mh-learn u-pull-right">
+                            <p><a href="staff.html" class="mh-learnmore">Learn more</a></p>
+                        </div>
+                        <br>
+                        <br>
+
+                        <h2 class="mh-h2">Facilities</h2>
+                        <p>
+                            Our campus is centrally located in the Mira Mesa community of San Diego, CA. There are 3 full-sized classrooms, including a dedicated arts & crafts area and toddler area. The outdoor playground is nearly 50% of the entire campus.
+                        </p>
+                        <div class="mh-learn u-pull-right">
+                            <p><a href="facilities.html" class="mh-learnmore">Learn more</a></p>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div>
+                            <a href="gallery.html" class="mh-cta-galthumb"></a>
+                        </div>
+                        <div class="mh-ctagal-top">
+                            <a href="gallery.html" class="mh-cta-gallery">Visit our Gallery</a>
+                        </div>
+                        <br>
+                        <div class="mh-ctagal-top">
+                            <a href="#top" class="mh-cta-gallery"><i class="fa fa-hand-o-up"></i> Back to Top</a>
+                        </div>
+                    </article>
+                </section>
+
+            </section>
+
+
+
+        </section>
+
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
